@@ -1,0 +1,63 @@
+package domaine;
+
+import java.util.Date;
+
+public class Personnes {
+	private int idpersonne;
+	private String nompersonne;
+	private String prenompersonne;
+	private Date datenaisspersonne;
+	private int coeffpersonne;
+
+	
+	public void setCoeffpersonne(int coeffpersonne) 
+	{
+		this.coeffpersonne = coeffpersonne;
+	}
+	
+	public int getCoeffpersonne() 
+	{
+		return coeffpersonne;
+	}
+			
+	public void setIdpersonne(int idpersonne) 
+	{
+		this.idpersonne = idpersonne;
+	}
+	
+	public int getIdpersonne() 
+	{
+		return idpersonne;
+	}
+	
+	public void setDatenaisspersonne(Date datenaisspersonne) 
+	{
+		this.datenaisspersonne = datenaisspersonne;
+	}
+	
+	public Date getDatenaisspersonne() 
+	{
+		return datenaisspersonne;
+	}
+	
+	public void setPrenompersonne(String prenompersonne) 
+	{
+		this.prenompersonne = prenompersonne;
+	}
+	
+	public String getPrenompersonne() 
+	{
+		return prenompersonne;
+	}
+	
+	public void setNompersonne(String nompersonne) 
+	{
+		this.nompersonne = nompersonne;
+	}
+	
+	public String getNompersonne() 
+	{
+		return nompersonne;
+	}
+
+}

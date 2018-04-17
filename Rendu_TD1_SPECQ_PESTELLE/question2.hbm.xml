@@ -1,0 +1,12 @@
+<hibernate-mapping>
+
+	<classe name="events.Salle" table="SALLE">
+	<id name = "Code-salle"column="SALLE_CODE-SALLE">
+		<generator class="serializable"/>
+	</id>
+	<property name = "Localisation"/>
+	<property name = "Nb-Places"/>
+	<property name = "Nb-Ordinateurs"/>
+	</class>
+
+</hibernate-mapping>

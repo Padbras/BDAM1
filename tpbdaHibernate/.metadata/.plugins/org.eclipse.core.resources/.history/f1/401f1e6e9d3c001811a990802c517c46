@@ -1,0 +1,31 @@
+package domaine;
+
+public class groupes {
+	private int idgroupe;
+	private String nomgroupe;
+	private String commentairegroupe;
+	
+	public int getIdgroupe() {
+		return idgroupe;
+	}
+	
+	public void setIdgroupe(int idgroupe) {
+		this.idgroupe = idgroupe;
+	}
+	
+	public void setNomgroupe(String nomgroupe) {
+		this.nomgroupe = nomgroupe;
+	}
+	
+	public String getNomgroupe() {
+		return nomgroupe;
+	}
+	
+	public String getCommentairegroupe() {
+		return commentairegroupe;
+	}
+	
+	public void setCommentairegroupe(String commentairegroupe) {
+		this.commentairegroupe = commentairegroupe;
+	}
+}

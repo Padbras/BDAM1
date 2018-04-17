@@ -1,0 +1,19 @@
+Solution numéro une: Une seule classe
+---------------------
+
+- précautions à prendre : une seule classe, donc pas de problèmes de clé
+- problèmes engendrés: le nombre de lignes à NULL est problématique. On ne peut pas toutes les mettres en NOT NULL pour autant. 
+
+
+Solution numéro deux: Une table par classe concrète
+---------------------
+
+- précautions à prendre: les deux types de Salle (info et auditoire) ont une clé primaire quasi identique. code_salle1 et 2 dans occupation peut aussi etre trompeur. 
+- problème engendrés: polymorphisme rendu compliqué 
+
+
+Solution numéro trois: Une table par classe
+----------------------
+
+- précautions à prendre: aucune particulière
+- problèmes engendrés: la table salle contiendra forcément un code vide puisqu'une salle ne peut pas être à la fois un auditoire et une salle info. On voit également très vite que cette solution multiplie le nombre de tables. 

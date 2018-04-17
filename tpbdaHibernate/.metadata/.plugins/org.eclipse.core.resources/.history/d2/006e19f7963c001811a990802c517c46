@@ -1,0 +1,9 @@
+package domaine;
+
+public class grppers {
+	
+	private int idgrppers;
+	private int idgroupe;
+	private int idpersonne;
+
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 10 avr. 2018 10:51:29 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="domaine.personnes" table="personnes">
+        <id name="idpersonne" type="int">
+            <column name="IDPERSONNE" />
+            <generator class="assigned" />
+        </id>
+        <property name="nompersonne" type="java.lang.String">
+            <column name="NOMPERSONNE" />
+        </property>
+        <property name="prenompersonne" type="java.lang.String">
+            <column name="PRENOMPERSONNE" />
+        </property>
+        <property name="datenaisspersonne" type="java.util.Date">
+            <column name="DATENAISSPERSONNE" />
+        </property>
+        <property name="coeffpersonne" type="int">
+            <column name="COEFFPERSONNE" />
+        </property>
+    </class>
+</hibernate-mapping>

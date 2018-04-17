@@ -1,0 +1,33 @@
+package domaine;
+
+public class Grppers {
+	
+	private int idgrppers;
+	private Groupes idgroupe;
+	private personnes idpersonne;
+	
+	public void setIdpersonne(personnes idpersonne) {
+		this.idpersonne = idpersonne;
+	}
+	
+	public personnes getIdpersonne() {
+		return idpersonne;
+	}
+	
+	public Groupes getIdgroupe() {
+		return idgroupe;
+	}
+	
+	public void setIdgroupe(Groupes idgroupe) {
+		this.idgroupe = idgroupe;
+	}
+	
+	public int getIdgrppers() {
+		return idgrppers;
+	}
+	
+	public void setIdgrppers(int idgrppers) {
+		this.idgrppers = idgrppers;
+	}
+
+}
